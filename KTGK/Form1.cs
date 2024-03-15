@@ -16,5 +16,17 @@ namespace KTGK
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            if(txtpassword.Text=="admin" && txtUserName.Text == "admin")
+            {
+                MessageBox.Show("ok");
+            }
+            else
+            {
+                MessageBox.Show("sai");
+            }
+        }
     }
 }
