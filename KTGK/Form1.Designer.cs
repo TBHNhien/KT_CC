@@ -33,6 +33,7 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
 
 
+
             this.SuspendLayout();
             // 
             // UserName
@@ -40,9 +41,11 @@
             this.UserName.AutoSize = true;
             this.UserName.Location = new System.Drawing.Point(169, 157);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(73, 16);
+            this.UserName.Size = new System.Drawing.Size(104, 16);
             this.UserName.TabIndex = 0;
+
             this.UserName.Text = "UserName";
+
             // txtUserName
             // 
             this.txtUserName.Location = new System.Drawing.Point(276, 151);
@@ -51,11 +54,15 @@
             this.txtUserName.TabIndex = 1;
             // 
 
+
+
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+
+
 
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.UserName);
@@ -70,6 +77,8 @@
 
         private System.Windows.Forms.Label UserName;
         private System.Windows.Forms.TextBox txtUserName;
+
+
 
 
     }
